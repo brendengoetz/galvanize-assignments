@@ -82,10 +82,11 @@ if prime:
 else:
     print('Your number is NOT prime. Nice try though!')
 
-#9 ...Still trying to figure this out
+#9
 nth_term = int(input('What number element in the series should we compute? '))
-element_num = 1
-while element_num <= nth_term:
-    int(element_num)*2 + 1 = _
+element_num = 0
+value = 1
+while element_num < nth_term:
+    value = value * 2 + 1
     element_num += 1
-print(_)
+print(value)
